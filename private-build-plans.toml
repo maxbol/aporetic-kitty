@@ -1,0 +1,352 @@
+# Aporetic Mono Sans
+# ------------------
+
+[buildPlans.aporetic-sans-mono]
+family = "Aporetic Sans Mono"    # Font menu family name
+spacing = "normal"               # Optional; Values: `normal`, `quasi-proportional`, `quasi-proportional-extension-only`, `term`, `fontconfig-mono`, or `fixed`
+serifs = "sans"                  # Optional; Values: `sans` or `slab`
+exportGlyphNames = true       # Set this to true for ligature support in Kitty (increased file size)
+
+[buildPlans.aporetic-sans-mono.variants.design]
+cv03 = 3    # 3 with double arc
+cv05 = 5    # 5 with arched middle part and no serifs
+cv07 = 1    # 7 with straight stem and no serifs
+cv08 = 3    # 8 with asymmetric crossing middle part
+cv10 = 4    # 0 full body with forward slash
+cv11 = 1    # A cap straight with no serifs
+cv12 = 1    # B cap symmetric with no serifs
+cv13 = 1    # C cap serifless
+cv14 = 6    # D cap curly with top and bottom serif (without serifs TODO reads like TOOO at small point sizes)
+cv15 = 1    # E cap serifless
+cv16 = 1    # F cap serifless
+cv17 = 2    # G cap with toothed body, inward hook terminal, and no top serif
+cv18 = 1    # H cap serifless
+cv19 = 2    # I cap with long serifs
+cv20 = 2    # J cap with top serif and curly hook
+cv21 = 6    # K cap curly with no serifs
+cv22 = 1    # L cap serifless
+cv23 = 7    # M cap with short middle leg and slanted sides
+cv24 = 1    # N cap symmetric with no serifs
+cv25 = 1    # P cap straight with no serifs
+cv26 = 4    # Q cap with tail crossing the ring
+cv27 = 1    # R cap straight with no serifs
+cv28 = 1    # S cap serifless
+cv29 = 1    # T cap serifless
+cv30 = 12   # U cap rounded bottom with no serifs
+cv31 = 1    # V cap straight with no serifs
+cv32 = 1    # W cap straight with short middle part and no serifs
+cv33 = 1    # X cap straight with no serifs
+cv34 = 1    # Y cap straight with no serifs
+cv35 = 1    # Z cap straight with no serifs
+cv38 = 1    # c serifless
+cv43 = 1    # h straight with no serifs
+cv44 = 10   # i with top serif, curly base, and flat tail
+cv45 = 6    # j with top serif, curly base, and flat tail
+cv47 = 14   # l with top serif, curly base, and flat tail
+cv52 = 9    # r hookless body shape with no serifs
+cv53 = 1    # s serifless
+cv54 = 7    # t with crossbar, curly base, and flat tail
+cv56 = 1    # v straight with no serifs
+cv57 = 1    # w straight with short middle top
+cv58 = 1    # x straight with no serifs
+cv59 = 16   # y open "u" top with no serifs and flat tail
+cv60 = 1    # z straight with no serifs
+cv61 = 4    # ß (eszet) cap with flat top and serifs
+cv62 = 25   # ſ (long S) with curly top and bottom bases and flat tails
+cv63 = 38   # ß (eszet) with ligature of long S (cv62) and s, containing terminal tail
+cv67 = 12   # α (greek alpha) rounded with curly tail
+VXAC = 2    # β (greek beta) with no bottom hook
+cv68 = 1    # Γ (greek gamma cap) straight with no serifs
+VXAD = 3    # γ (greek gamma) with asymmetric curly shape
+cv69 = 1    # Δ (greek delta cap) straight with no serifs
+cv70 = 1    # δ (greek delta) with rounded top
+cv71 = 12   # ι (greek iota) with top serif, curly base, and flat tail
+cv72 = 1    # Λ (greek iota) with top serif, curly base, and flat tail
+cv73 = 1    # λ (greek lambda) straight with no serifs
+cv74 = 1    # μ (greek me) with toothed body and no serifs
+VXAE = 1    # ν (greek ne) straight with no serifs
+cv75 = 2    # ξ (greek xe) with flat top
+cv76 = 1    # π (greek pe) straight with top serifs
+cv77 = 6    # τ (greek taf) with top serifs, curly base, and flat tail
+VXAF = 1    # υ (greek ypsilon) straight with no serifs
+VXAG = 2    # φ (greek phe) with open side and no stem
+cv78 = 1    # χ (greek he) straight with no serifs
+VXAH = 3    # ψ (greek pse) straight with no serifs and no stem
+VDAA = 2    # square dots over i and j
+VDAB = 2    # square dots in diacritics like ä
+VDAC = 2    # square dots in punctuation marks
+VDAD = 2    # square dots in braille
+VSAA = 2    # ~ lower placement
+VSAB = 3    # * with five points and low placement
+VSAC = 2    # _ right below the baseline
+VSAD = 2    # ^ at medium placement
+VSAE = 1    # ` as a short, straight, diagonal line
+VSAF = 1    # ' as a short, straight, vertical line
+VSAG = 1    # ( with a normal contour
+VSAH = 2    # { curly
+VSAI = 1    # « straight
+VSAJ = 1    # # column straight
+VSAK = 2    # & et open top
+VSAL = 2    # @ three-fold, tall height
+VSAM = 2    # $ strike through
+VSAN = 2    # ¢ strike through
+VSAO = 1    # % percent dots
+VSAP = 2    # | bar force upright
+VSAQ = 1    # ? smooth
+VLAA = 2    # ≥ slanted bottom lines
+VLAB = 2    # ≠ slightly slanted bar
+VLAC = 1    # equality ligation with notch in the middle
+VLAD = 1    # hyphen minus ligation with notch in the middle
+VLAE = 1    # plus plus ligation with notch in the middle
+VLAF = 1    # bars in double arrow ligation with notch in the middle
+VLAG = 1    # bar in single arrow ligation with notch in the middle
+
+[buildPlans.aporetic-sans-mono.variants.upright]
+cv36 = 4    # a double storey with a toothless corner
+cv37 = 4    # b rounded
+cv39 = 7    # d rounded
+cv40 = 1    # e straight
+cv41 = 12   # f with serifless bottom at baseline, flat top, and crossbar at the x-height
+cv42 = 9    # g single storey with flat hook and earless cornered top
+cv46 = 6    # k curly with no serifs
+cv48 = 20   # m earless double arch short middle leg
+cv49 = 8    # n earless straight
+cv50 = 4    # p earless with cornered top
+cv51 = 9    # q earless with cornered top
+cv55 = 8    # u with toothless shape and cornered bottom with no serifs
+cv01 = 3    # 1 with bottom serif and short top serif
+cv02 = 1    # 2 with straight neck and no serifs
+cv04 = 5    # 4 with semi-open contour and no serifs
+cv06 = 3    # 6 with straight bar
+cv09 = 3    # 9 with straight bar
+
+[buildPlans.aporetic-sans-mono.variants.italic]
+cv36 = 1    # a double storey straight
+cv37 = 1    # b straight with no serifs
+cv39 = 1    # d straight with no serifs
+cv40 = 2    # e curly
+cv41 = 16   # f with serifless extended bottom, flat top, and crossbar at the x-height
+cv42 = 7    # g single storey flat hook
+cv46 = 1    # k straight with no serifs
+cv48 = 8    # m straight short middle leg
+cv49 = 1    # n straight with no serifs
+cv50 = 1    # p straight with no serifs
+cv51 = 1    # q straight with no serifs
+cv55 = 1    # u straight with no serifs
+cv01 = 2    # 1 with top hook and no bottom serif
+cv02 = 3    # 2 with curly neck and no serifs
+cv04 = 1    # 4 with closed contour and crossing bar
+cv06 = 1    # 6 with closed contour
+cv09 = 1    # 9 with closed contour
+
+[buildPlans.aporetic-sans-mono.weights.regular]
+shape = 400
+menu  = 400
+css   = 400
+
+[buildPlans.aporetic-sans-mono.weights.bold]
+shape = 700
+menu  = 700
+css   = 700
+
+[buildPlans.aporetic-sans-mono.slopes.upright]
+angle = 0
+shape = "upright"
+menu  = "upright"
+css   = "normal"
+
+[buildPlans.aporetic-sans-mono.slopes.italic]
+angle = 9.4
+shape = "italic"
+menu  = "italic"
+css   = "italic"
+
+[buildPlans.aporetic-sans-mono.widths.normal]
+shape = 525
+menu  = 5
+css   = "normal"
+
+
+# Aporetic Sans
+# -------------
+
+[buildPlans.aporetic-sans]
+family = "Aporetic Sans"
+spacing = "quasi-proportional"
+serifs = "sans"
+exportGlyphNames = true
+
+[buildPlans.aporetic-sans.variants]
+inherits = "buildPlans.aporetic-sans-mono"
+
+[buildPlans.aporetic-sans.variants.design]
+cv19 = 3    # I cap with short serifs
+VSAL = 5    # @ traditional four-fold style
+VSAO = 3    # % with two circles and continuous diagonal line
+
+# The 'm' character has three legs of equal length, instead of a shorter
+# middle leg.  The short middle leg in the narrow variants is necessary
+# for legibility, especially at small point sizes (otherwise the
+# character's legs visually blend into what appears to be a solid
+# block).
+[buildPlans.aporetic-sans.variants.upright]
+cv48 = 15   # m earless normal middle leg
+
+[buildPlans.aporetic-sans.variants.italic]
+cv48 = 1    # m straight normal middle leg
+
+[buildPlans.aporetic-sans.weights.regular]
+shape = 400
+menu  = 400
+css   = 400
+
+[buildPlans.aporetic-sans.weights.bold]
+shape = 700
+menu  = 700
+css   = 700
+
+[buildPlans.aporetic-sans.slopes.upright]
+angle = 0
+shape = "upright"
+menu  = "upright"
+css   = "normal"
+
+[buildPlans.aporetic-sans.slopes.italic]
+angle = 9.4
+shape = "italic"
+menu  = "italic"
+css   = "italic"
+
+[buildPlans.aporetic-sans.widths.normal]
+shape = 525
+menu  = 5
+css   = "normal"
+
+
+# Aporetic Mono Serif
+# -------------------
+
+[buildPlans.aporetic-serif-mono]
+family = "Aporetic Serif Mono"
+spacing = "normal"
+serifs = "slab"
+exportGlyphNames = true
+
+[buildPlans.aporetic-serif-mono.variants]
+inherits = "buildPlans.aporetic-sans-mono"
+
+[buildPlans.aporetic-serif-mono.variants.design]
+cv11 = 2    # A cap straight top serif
+cv12 = 2    # B cap symmetric with top serif
+cv13 = 4    # C cap top inward serif
+cv15 = 2    # E cap top left serif
+cv16 = 2    # F cap top left serif
+cv18 = 2    # H cap top left serif
+cv19 = 2    # I cap with long serifs
+cv22 = 2    # L cap bottom right serif
+cv23 = 8    # M cap with slanted sides, top left serif, and short middle joint
+cv24 = 2    # N cap symmetric with top left serif
+cv25 = 2    # P cap closed with top left serif
+cv27 = 2    # R cap straight with top left serif
+cv28 = 4    # S cap with top inward serif
+cv30 = 13   # U cap with rounded bottom and top left serif
+cv31 = 2    # V cap straight with top serif
+cv32 = 2    # W cap straight, top left serif, and short middle joint
+cv33 = 2    # X cap straight with top left serif
+cv34 = 3    # Y cap straight with top left serif
+cv35 = 4    # Z cap straight with top left serif
+cv36 = 3    # a double storey with curly tail
+cv37 = 2    # b toothed shape with top left serif
+cv38 = 4    # c with top inward serif
+cv39 = 2    # d toothed shape with top left serif
+cv42 = 8    # g single storey with flat hook and serified top corner
+cv43 = 3    # h tailed top serif
+cv44 = 14   # i with top serif and slight curly tail
+cv46 = 7    # k curly with top left serif
+cv47 = 14   # l with top serif and curly tail
+cv48 = 13   # m with top left serif, tailed bottom right corner, and short middle leg
+cv49 = 6    # n with top left serif and tailed bottom right corner
+cv50 = 2    # p straight with top left serif
+cv51 = 3    # q straight with top right serif
+cv52 = 10   # r with top left serif and hookless bottom
+cv53 = 4    # s with top inward serif
+cv55 = 6    # u with top left serif and bottom right tail
+cv56 = 2    # v straight with top left serif
+cv57 = 2    # w straight with top left serif and short middle section
+cv58 = 2    # x straight with top left serif
+cv59 = 17   # y with open top, flat terminal hook, and top left serif
+cv60 = 4    # z straight with top left serif
+
+[buildPlans.aporetic-serif-mono.weights.regular]
+shape = 400
+menu  = 400
+css   = 400
+
+[buildPlans.aporetic-serif-mono.weights.bold]
+shape = 700
+menu  = 700
+css   = 700
+
+[buildPlans.aporetic-serif-mono.slopes.upright]
+angle = 0
+shape = "upright"
+menu  = "upright"
+css   = "normal"
+
+[buildPlans.aporetic-serif-mono.slopes.italic]
+angle = 9.4
+shape = "italic"
+menu  = "italic"
+css   = "italic"
+
+[buildPlans.aporetic-serif-mono.widths.normal]
+shape = 525
+menu  = 5
+css   = "normal"
+
+
+# Aporetic Serif
+# --------------
+
+[buildPlans.aporetic-serif]
+family = "Aporetic Serif"
+spacing = "quasi-proportional"
+serifs = "slab"
+exportGlyphNames = true
+
+[buildPlans.aporetic-serif.variants]
+inherits = "buildPlans.aporetic-serif-mono"
+
+[buildPlans.aporetic-serif.variants.design]
+cv19 = 3    # I cap with short serifs
+cv48 = 6    # m with top left serif, normal middle leg, and bottom right tail
+VSAL = 5    # @ traditional four-fold style
+VSAO = 3    # % with two circles and continuous diagonal line
+
+[buildPlans.aporetic-serif.weights.regular]
+shape = 400
+menu  = 400
+css   = 400
+
+[buildPlans.aporetic-serif.weights.bold]
+shape = 700
+menu  = 700
+css   = 700
+
+[buildPlans.aporetic-serif.slopes.upright]
+angle = 0
+shape = "upright"
+menu  = "upright"
+css   = "normal"
+
+[buildPlans.aporetic-serif.slopes.italic]
+angle = 9.4
+shape = "italic"
+menu  = "italic"
+css   = "italic"
+
+[buildPlans.aporetic-serif.widths.normal]
+shape = 525
+menu  = 5
+css   = "normal"
+
