@@ -1,0 +1,1 @@
+Custom build of Aporetic (https://github.com/protesilaos/aporetic), formerly known as Iosevka Comfy, that includes stuff in the build plan that makes ligatures compatible with the Kitty terminal emulator.
